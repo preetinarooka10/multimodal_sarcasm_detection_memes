@@ -1,18 +1,9 @@
 #!/usr/bin/env python3
 """
-04_bootstrap_ci_from_predictions.py
+bootstrap_ci_from_predictions.py
 
 Compute bootstrap confidence intervals from a notebook-style predictions CSV.
 
-Aligned with the notebook's saved predictions:
-- predictions.csv: y_true, p_multi, p_ens, yhat_multi, yhat_ens
-- or richer exports such as predictions_final_eval_fixed.csv
-
-Example:
-python scripts/04_bootstrap_ci_from_predictions.py \
-  --pred_csv runs/.../predictions.csv \
-  --prob_col p_multi \
-  --out_json runs/.../ci_multi.json
 """
 from __future__ import annotations
 
