@@ -1,21 +1,10 @@
 #!/usr/bin/env python3
 """
-06_seed_summary_from_run_dirs.py
+seed_summary_from_run_dirs.py
 
 Aggregate notebook-style metrics across multiple run directories.
 
-Aligned with these notebook outputs:
-- metrics.json
-- final_eval_fixed.json
-- best_metrics.json
-- mustard_metrics.json
 
-Example:
-python scripts/06_seed_summary_from_run_dirs.py \
-  --pattern "runs_sarcasm/*" \
-  --which final_eval_fixed \
-  --out_csv artifacts/seed_summary.csv \
-  --out_json artifacts/seed_summary.json
 """
 from __future__ import annotations
 
