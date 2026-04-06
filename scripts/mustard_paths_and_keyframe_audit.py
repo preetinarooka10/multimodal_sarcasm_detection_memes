@@ -42,10 +42,7 @@ def build_eval_dataframe(annotation_json: Path, keyframes_dir: Path) -> pd.DataF
         if not isinstance(item, dict):
             continue
 
-        # Notebook-aligned assumptions:
-        # - utterance key is the identifier
-        # - labels are mapped to binary sarcasm
-        # - keyframe is <utterance_id>.jpg
+        
         text_parts = []
         context = item.get("context", [])
         if isinstance(context, list):
