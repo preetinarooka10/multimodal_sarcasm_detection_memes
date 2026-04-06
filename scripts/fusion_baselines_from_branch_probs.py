@@ -1,29 +1,10 @@
 #!/usr/bin/env python3
 """
-05_fusion_baselines_from_branch_probs.py
+fusion_baselines_from_branch_probs.py
 
 Evaluate simple non-GWO fusion baselines from branch probability CSVs.
 
-This script is aligned to the notebook's branch structure:
-- text branch
-- image branch
-- emoji branch
-- multimodal branch
 
-Important:
-The notebook's default predictions.csv does NOT include all branch probabilities.
-For this script, use a richer CSV that contains:
-- y_true
-- p_text
-- p_image
-- p_emoji
-- p_multi   OR   p_multimodal_branch
-
-Example:
-python scripts/05_fusion_baselines_from_branch_probs.py \
-  --pred_csv runs/.../predictions_final_eval_fixed.csv \
-  --out_csv runs/.../fusion_baselines.csv \
-  --out_json runs/.../fusion_baselines.json
 """
 from __future__ import annotations
 

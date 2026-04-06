@@ -1,20 +1,8 @@
 #!/usr/bin/env python3
 """
-02_export_repo_metadata.py
+export_repo_metadata.py
 
-Create clean repository metadata files from:
-1) the final executed notebook, and
-2) the frozen split summary (optional).
 
-Outputs:
-- repo_metadata.json
-- BACKBONE_NOTE.txt
-
-Example:
-python scripts/02_export_repo_metadata.py \
-  --notebook_alignment_json artifacts/notebook_alignment_summary.json \
-  --subset_summary artifacts/splits/subset_summary.json \
-  --out_dir artifacts/repo_metadata
 """
 from __future__ import annotations
 

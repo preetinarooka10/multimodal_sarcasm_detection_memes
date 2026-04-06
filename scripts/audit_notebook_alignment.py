@@ -1,17 +1,13 @@
 #!/usr/bin/env python3
 """
-01_audit_notebook_alignment.py
+audit_notebook_alignment.py
 
-Parse the final executed notebook and extract the implementation details that
-should drive repository documentation and reviewer-facing scripts.
+
 
 This script is intentionally read-only. It does not run any training code.
 It inspects the notebook JSON and writes a compact implementation summary.
 
-Example:
-python scripts/01_audit_notebook_alignment.py \
-  --notebook notebooks/01_memotion_train_in_domain.ipynb \
-  --out_json artifacts/notebook_alignment_summary.json
+
 """
 from __future__ import annotations
 
