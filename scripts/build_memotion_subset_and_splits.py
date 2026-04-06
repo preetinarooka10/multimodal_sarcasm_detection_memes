@@ -1,23 +1,10 @@
 #!/usr/bin/env python3
 """
-03_build_memotion_subset_and_splits.py
+build_memotion_subset_and_splits.py
 
 Notebook-aligned reproducibility script for the final sarcasm notebook.
 
-This version mirrors the notebook logic more closely than the older reviewer script:
-- robust image column inference
-- robust sarcasm label mapping
-- text column preference: text_corrected -> text_ocr
-- 70/15/15 stratified split with seed 42 by default
 
-It is intended for transparency and frozen-split export.
-If you already have the manuscript-approved split files, do not regenerate them.
-
-Example:
-python scripts/03_build_memotion_subset_and_splits.py \
-  --input_csv path/to/labels.csv \
-  --output_dir artifacts/splits \
-  --notebook_name "sarcasm_9_localgpu_updated_v4 - Copy (2).ipynb"
 """
 from __future__ import annotations
 
