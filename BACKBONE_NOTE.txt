@@ -1,0 +1,11 @@
+BACKBONE NOTE
+================
+
+The uploaded final executed notebook uses:
+- text backbone: ai4bharat/indic-bert
+- visual backbone A: torchvision ResNet-50
+- visual backbone B: openai/clip-vit-base-patch32
+- emoji branch: learned embedding + linear projection
+- fusion: cross-modal attention + image-emoji gating + supplementary GWO over branch probabilities
+
+Use IndicBERT as the implemented text backbone everywhere in the manuscript, README, and reviewer-facing notes.
