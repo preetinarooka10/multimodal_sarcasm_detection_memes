@@ -1,23 +1,9 @@
 #!/usr/bin/env python3
 """
-07_mustard_paths_and_keyframe_audit.py
+mustard_paths_and_keyframe_audit.py
 
 Audit MUStARD paths and optionally build a notebook-aligned evaluation CSV.
-This script is aligned to the final notebook's MUStARD cells:
-- raw videos under raw_videos/mmsd_raw_data/utterances_final
-- labels from data/sarcasm_data.json
-- keyframes stored in _keyframes_utt
-- eval CSV stored in _eval/mustard_eval.csv
 
-By default, this script only audits and writes a JSON report.
-It can also build the evaluation CSV if --build-eval-csv is supplied.
-
-Example:
-python scripts/07_mustard_paths_and_keyframe_audit.py \
-  --mustard_root /path/to/MUStARD-master \
-  --out_json artifacts/mustard_audit.json \
-  --build_eval_csv \
-  --out_csv artifacts/mustard_eval.csv
 """
 from __future__ import annotations
 
