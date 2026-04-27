@@ -1,0 +1,24 @@
+name: sarcasm
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - tqdm
+  - jupyter
+  - notebook
+  - ipykernel
+  - pip
+  - pip:
+      - transformers
+      - huggingface-hub
+      - tokenizers
