@@ -1,0 +1,77 @@
+{
+  "total_rows": 6992,
+  "train_rows": 4894,
+  "val_rows": 1049,
+  "test_rows": 1049,
+  "train_columns": [
+    "Unnamed: 0",
+    "image_name",
+    "text_ocr",
+    "text_corrected",
+    "humour",
+    "sarcasm",
+    "offensive",
+    "motivational",
+    "overall_sentiment",
+    "binary_label",
+    "split"
+  ],
+  "val_columns": [
+    "Unnamed: 0",
+    "image_name",
+    "text_ocr",
+    "text_corrected",
+    "humour",
+    "sarcasm",
+    "offensive",
+    "motivational",
+    "overall_sentiment",
+    "binary_label",
+    "split"
+  ],
+  "test_columns": [
+    "Unnamed: 0",
+    "image_name",
+    "text_ocr",
+    "text_corrected",
+    "humour",
+    "sarcasm",
+    "offensive",
+    "motivational",
+    "overall_sentiment",
+    "binary_label",
+    "split"
+  ],
+  "full_columns": [
+    "Unnamed: 0",
+    "image_name",
+    "text_ocr",
+    "text_corrected",
+    "humour",
+    "sarcasm",
+    "offensive",
+    "motivational",
+    "overall_sentiment",
+    "binary_label",
+    "split"
+  ],
+  "label_column_used_for_summary": "binary_label",
+  "label_distribution": {
+    "train": {
+      "1": 3813,
+      "0": 1081
+    },
+    "val": {
+      "1": 817,
+      "0": 232
+    },
+    "test": {
+      "1": 818,
+      "0": 231
+    },
+    "full": {
+      "1": 5448,
+      "0": 1544
+    }
+  }
+}
