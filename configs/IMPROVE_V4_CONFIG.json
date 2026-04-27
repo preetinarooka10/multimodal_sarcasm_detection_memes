@@ -1,0 +1,11 @@
+{
+  "lr": 3e-05,
+  "weight_decay": 0.05,
+  "dropout": 0.5,
+  "batch_size": 8,
+  "epochs": 8,
+  "focal_alpha": 0.6,
+  "focal_gamma": 1.0,
+  "sampler": true,
+  "select_best_by": "macro_f1_tuned_multimodal"
+}
