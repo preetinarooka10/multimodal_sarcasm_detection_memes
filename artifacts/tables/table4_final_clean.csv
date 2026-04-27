@@ -1,0 +1,9 @@
+Variant,Accuracy,Macro-F1,ROC-AUC
+"Full model (Primary, p multi)",0.647,0.506,0.503
+Hybrid (Concat + Emoji),0.669,0.508,0.478
+"Hybrid (Cross-attn, no GWO)",0.606,0.464,0.463
+Image-only (ResNet-50),0.696,0.506,0.475
+Text+Image (CLIP fusion),0.634,0.487,0.47
+Text+Image (Concat),0.673,0.49,0.463
+Text-only (BiLSTM),0.67,0.502,0.522
+Text-only (TextCNN),0.659,0.509,0.511

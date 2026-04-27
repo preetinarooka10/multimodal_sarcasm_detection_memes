@@ -1,0 +1,9 @@
+Metric,Mean ± Std
+Accuracy,0.6530 ± 0.0017
+Macro-F1,0.5162 ± 0.0006
+ROC-AUC,0.5025 ± 0.0003
+w_text,0.4091 ± 0.1581
+w_image,0.2461 ± 0.1483
+w_emoji,0.1383 ± 0.0590
+w_multi,0.2065 ± 0.0502
+best_thr,0.5000 ± 0.0000
