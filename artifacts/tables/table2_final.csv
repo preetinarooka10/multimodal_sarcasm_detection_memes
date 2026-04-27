@@ -1,5 +1,4 @@
 Model / Operating Point,Accuracy,Macro-F1,ROC-AUC
 Multimodal (threshold 0.50),0.678,0.488,0.503
 Multimodal (tuned threshold = 0.525),0.647,0.506,0.503
-"GWO fusion (threshold 0.50, supplementary)",0.22,0.18,0.482
-"GWO fusion (tuned threshold = 0.050, supplementary)",0.78,0.438,0.482
+
