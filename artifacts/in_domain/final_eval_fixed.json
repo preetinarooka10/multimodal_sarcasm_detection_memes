@@ -1,0 +1,45 @@
+{
+  "run_dir": "D:\\AI\\outputs\\runs_sarcasm_improve\\improve_v4_lr3e-05_wd0.05_do0.5_bs8_ep8_fa0.6_fg1_SAMPLER",
+  "best_epoch": 1,
+  "selection_metric": "val_multi_best_macro_f1",
+  "thresholds": {
+    "val_multi_thr": 0.525,
+    "val_ens_thr": 0.05
+  },
+  "test_size": 1049,
+  "test_pos_frac": 0.7797902764537655,
+  "multi_thr_0_5": {
+    "acc": 0.6777883698760725,
+    "macro_f1": 0.48768639463645824,
+    "auc": 0.5032996750600662,
+    "threshold": 0.5,
+    "positive_rate": 0.8293612964728313
+  },
+  "multi_thr_best": {
+    "acc": 0.6472831267874166,
+    "macro_f1": 0.5059948070461256,
+    "auc": 0.5032996750600662,
+    "threshold": 0.525,
+    "positive_rate": 0.7550047664442326
+  },
+  "ens_thr_0_5": {
+    "acc": 0.2202097235462345,
+    "macro_f1": 0.18046875,
+    "auc": 0.4821097810095365,
+    "threshold": 0.5,
+    "positive_rate": 0.0
+  },
+  "ens_thr_best": {
+    "acc": 0.7797902764537655,
+    "macro_f1": 0.43813604713444027,
+    "auc": 0.4821097810095365,
+    "threshold": 0.05,
+    "positive_rate": 1.0
+  },
+  "ensemble_weights": [
+    0.6406516563241764,
+    0.10851426883500451,
+    0.2507592046716443,
+    7.487016917479015e-05
+  ]
+}
